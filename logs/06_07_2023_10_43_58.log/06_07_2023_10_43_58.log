@@ -1,0 +1,26 @@
+[ 2023-06-07 10:44:00,659 ] 27 root - INFO - Data Ingestion methods Starts
+[ 2023-06-07 10:44:01,318 ] 31 root - INFO - Dataset read as pandas Dataframe
+[ 2023-06-07 10:44:05,949 ] 35 root - INFO - Train test split
+[ 2023-06-07 10:44:10,763 ] 41 root - INFO - Ingestion of Data is completed
+[ 2023-06-07 10:44:11,481 ] 37 root - INFO - Read train and test data completed
+[ 2023-06-07 10:44:11,497 ] 38 root - INFO - Train Dataframe Head : 
+   Unnamed: 0  price  distance  surge_multiplier  latitude  longitude  cab_type_Lyft  cab_type_Uber  name_Black  name_Black SUV  name_Lux  name_Lux Black  name_Lux Black XL  name_Lyft  name_Lyft XL  name_Shared  name_UberPool  name_UberX  name_UberXL  name_WAV
+0      385225    8.0      0.92               1.0   42.3519   -71.0551            0.0            1.0         0.0             0.0       0.0             0.0                0.0        0.0           0.0          0.0            0.0         0.0          0.0       1.0
+1      535996   22.5      2.98               1.0   42.2148   -71.0330            0.0            1.0         1.0             0.0       0.0             0.0                0.0        0.0           0.0          0.0            0.0         0.0          0.0       0.0
+2      104445    9.0      2.26               1.0   42.3519   -71.0551            1.0            0.0         0.0             0.0       0.0             0.0                0.0        1.0           0.0          0.0            0.0         0.0          0.0       0.0
+3      377468    7.0      3.18               1.0   42.3429   -71.1003            1.0            0.0         0.0             0.0       0.0             0.0                0.0        0.0           0.0          1.0            0.0         0.0          0.0       0.0
+4      336562   18.5      1.89               1.0   42.3505   -71.1054            0.0            1.0         1.0             0.0       0.0             0.0                0.0        0.0           0.0          0.0            0.0         0.0          0.0       0.0
+[ 2023-06-07 10:44:11,497 ] 39 root - INFO - Test Dataframe Head  : 
+   Unnamed: 0  price  distance  surge_multiplier  latitude  longitude  cab_type_Lyft  cab_type_Uber  name_Black  name_Black SUV  name_Lux  name_Lux Black  name_Lux Black XL  name_Lyft  name_Lyft XL  name_Shared  name_UberPool  name_UberX  name_UberXL  name_WAV
+0      414028   20.5      2.12               1.0   42.2148   -71.0330            0.0            1.0         1.0             0.0       0.0             0.0                0.0        0.0           0.0          0.0            0.0         0.0          0.0       0.0
+1      486655   17.0      2.80               1.0   42.3661   -71.0631            0.0            1.0         0.0             0.0       0.0             0.0                0.0        0.0           0.0          0.0            0.0         0.0          1.0       0.0
+2      192025   19.5      3.15               1.0   42.3647   -71.0542            1.0            0.0         0.0             0.0       1.0             0.0                0.0        0.0           0.0          0.0            0.0         0.0          0.0       0.0
+3      361457    8.0      2.58               1.0   42.3519   -71.0551            0.0            1.0         0.0             0.0       0.0             0.0                0.0        0.0           0.0          0.0            1.0         0.0          0.0       0.0
+4      207201   31.0      4.58               1.0   42.2148   -71.0330            0.0            1.0         1.0             0.0       0.0             0.0                0.0        0.0           0.0          0.0            0.0         0.0          0.0       0.0
+[ 2023-06-07 10:44:11,497 ] 42 root - INFO - LabelEncode the data
+[ 2023-06-07 10:44:11,497 ] 23 root - INFO - Data Transformation initiated
+[ 2023-06-07 10:44:16,343 ] 66 root - INFO - Preprocessed data csv's file saved
+[ 2023-06-07 10:44:16,343 ] 30 root - INFO - Making cluster of latitude and longitude dataframe
+[ 2023-06-07 10:44:17,551 ] 36 root - INFO - [0 1 0 ... 0 2 1]
+[ 2023-06-07 10:44:17,551 ] 38 root - INFO - Splitting Dependent and Independent variables from train and test data
+[ 2023-06-07 10:44:17,655 ] 82 root - INFO - Exception occured at Model Training of Revenue
